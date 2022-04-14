@@ -5,7 +5,7 @@ import { FaUserAlt } from 'react-icons/fa'
 const Navbar = () => {
   return (
     <>
-        <div style={{backgroundColor:"red"}}>
+        <div style={{backgroundColor:"#090a1a"}}>
             <ul className="flex flex-row items-center justify-around text-white text-xl py-5">
                 <li>Home</li>
                 <li className="flex flex-row items-center gap-4">
