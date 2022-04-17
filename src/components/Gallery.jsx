@@ -54,7 +54,7 @@ const Gallery = () => {
                         <img src={data.image} alt="food" className={`w-${data.w} h-${data.h}`}/>                        
                     ))
                 }
-                <div style={{background: "rgba( 0, 0, 0, 0.0 )"}} className="absolute w-44 h-44 right-11 bottom-12">
+                <div style={{background: "rgba( 0, 0, 0, 0.0 )"}} className="absolute w-44 h-44 right-12 bottom-12">
                     <h4 className="text-white font-bold text-xl text-center mt-12 w-full h-full pt-20 bg-gradient-to-r from-slate-900 to-gray-900 opacity-60">
                         +20 More
                     </h4>
