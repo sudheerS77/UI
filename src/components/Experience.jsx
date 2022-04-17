@@ -6,10 +6,10 @@ const Card = (data) => {
     return (
         <>
             <div className=" h-54 flex flex-col items-center px-20">
-                <div className="w-full h-42">
+                <div className="w-full h-56">
                     <img src={data.image} alt="" className="w-full h-full rounded-t-3xl"/>
-                    <h4 className="text-center bg-yellow-200 text-xl w-full px-4 py-4 rounded-t-3xl">{data.name}</h4>
                 </div>
+                    <h4 className="text-center bg-yellow-200 text-xl w-full px-4 py-4 rounded-t-3xl -mt-6 z-0">{data.name}</h4>
             </div>
         </>
     )
@@ -54,11 +54,11 @@ const Experience = () => {
 
     return (
     <>
-        <div className="flex flex-col mt-20">
-            <h1 className="text-2xl text-yellow-500 font-bold text-center">Some of our experienced Home Chefs</h1>
-            <h4 className="text-xl text-center mt-10">The dishes are prepared by the best home chefs in the town and every chef is directly given credit.</h4>
+        <div className="flex flex-col mt-40">
+            <h1 className="text-3xl text-yellow-500 font-semibold text-center">Some of our experienced Home Chefs</h1>
+            <h4 className="text-xl text-center mt-14">The dishes are prepared by the best home chefs in the town and every chef is directly given credit.</h4>
             <h4 className="text-xl text-center">the transparency is maintained so that it gives ease for the users to order the dish or opt any plans</h4>
-            <div className="px-20 mt-14">
+            <div className="px-20 mt-24">
                 <Slider {...settings}>
                     {images.map((data) => (
                         <Card {...data}/>

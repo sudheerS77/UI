@@ -8,7 +8,7 @@ const Ask = (q) => {
         <>
             <div className="flex flex-row items-center justify-between bg-yellow-500 px-5 py-4 w-1/2 rounded-lg">
                 <h4 className="text-lg text-black font-bold">{q.question}</h4>
-                <BsChevronDown className="text-3xl"/>
+                <BsChevronDown className="text-2xl"/>
             </div>
         </>
     )
