@@ -26,7 +26,7 @@ const Registration = () => {
               <RegForm />
             </div>
         </div>
-        <div style={{background: "rgba( 8, 2, 51, 0.9 )"}} className="absolute bottom-10 right-8 p-4 rounded-full bg-indigo-900">
+        <div style={{background: "rgba( 8, 2, 51, 0.9 )"}} className="fixed bottom-10 right-8 p-4 rounded-full bg-indigo-900">
           <SiChatbot  className="text-6xl text-gray-50" />
         </div>
     </>

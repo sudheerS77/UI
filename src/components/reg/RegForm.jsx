@@ -6,8 +6,8 @@ import { BsChevronDown } from 'react-icons/bs'
 const RegForm = () => {
   return (
     <>
-        <div style={{boxshadow: "11px -12px 23px -12px rgba(2,4,15,0.39)"}} className="flex flex-col items-center justify-center gap-12">
-            <div style={{background: "rgba( 8, 2, 51, 0.85 )", boxshadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )", backdropfilter: "blur( 20px )" }} className="flex flex-row gap-1 px-10 shadow-lg">
+        <div className="flex flex-col items-center justify-center gap-12">
+            <div style={{background: "#213a5a", boxshadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )", backdropfilter: "blur( 20px )" }} className="flex flex-row gap-1 px-10 shadow-lg">
                 <div className="text-gray-50 flex flex-col py-5">
                     <div className="flex flex-row items-center gap-10 py-6">
                         <label htmlFor="" className="text-xl w-44">Email Address</label>
@@ -75,3 +75,5 @@ const RegForm = () => {
 }
 
 export default RegForm
+
+//background: "rgba( 8, 2, 51, 0.85 )11px -12px 23px -12px rgba(2,4,15,0.39)
